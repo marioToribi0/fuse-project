@@ -11,4 +11,4 @@ EXPOSE 80
 
 ENTRYPOINT ["poetry", "run", "streamlit", "run"]
 
-CMD ["pensiones_empresas_app/main.py"]
+CMD ["main.py"]
