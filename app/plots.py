@@ -1,4 +1,3 @@
-
 import plotly.graph_objects as go
 import numpy as np
 from sklearn import metrics
@@ -6,13 +5,18 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 
+
 def bar_chart(labels, sizes):
     fig = go.Figure(data=[go.Pie(labels=labels, values=sizes)])
     fig.update_layout(
-    # Add annotations in the center of the donut pies.
-    annotations=[dict(text='Churn', x=0.18, y=0.5, font_size=20, showarrow=False),
-                 dict(text='No Churn', x=0.87, y=0.5, font_size=20, showarrow=False)])
+        # Add annotations in the center of the donut pies.
+        annotations=[
+            dict(text="Churn", x=0.18, y=0.5, font_size=20, showarrow=False),
+            dict(text="No Churn", x=0.87, y=0.5, font_size=20, showarrow=False),
+        ]
+    )
     return fig
+
 
 def confusion_matrix(y_true, y_pred):
     cnf_matrix = metrics.confusion_matrix(y_true, y_pred)
