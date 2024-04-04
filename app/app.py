@@ -6,14 +6,14 @@ import joblib
 from sklearn.metrics import recall_score, f1_score, accuracy_score
 
 
-@st.cache_data(persist="disk")
+@st.cache_data
 def load_data() -> dict[str, pd.DataFrame]:
     df_processed = pd.read_pickle("./data/df_processed.pkl")
     df = pd.read_pickle("./data/df.pkl")
     return {"df": df, "df_processed": df_processed}
 
 
-@st.cache_data(persist="disk")
+@st.cache_resource
 def load_models() -> dict[str, pd.DataFrame]:
     pipeline = joblib.load("./pipeline/feature_engineering_pipeline.pkl")
     model = joblib.load("./models/votation_classifier.pkl")
