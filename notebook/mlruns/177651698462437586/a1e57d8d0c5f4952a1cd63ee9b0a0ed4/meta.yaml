@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/mtoribio/Desktop/Clases/Projects%20Mario/Fuse%20project/notebook/mlruns/177651698462437586/a1e57d8d0c5f4952a1cd63ee9b0a0ed4/artifacts
+end_time: 1712253116251
+entry_point_name: ''
+experiment_id: '177651698462437586'
+lifecycle_stage: active
+run_id: a1e57d8d0c5f4952a1cd63ee9b0a0ed4
+run_name: CatBoost Classifier
+run_uuid: a1e57d8d0c5f4952a1cd63ee9b0a0ed4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712253115797
+status: 3
+tags: []
+user_id: mtoribio
