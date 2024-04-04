@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/mtoribio/Desktop/Clases/Projects%20Mario/Fuse%20project/notebook/mlruns/177651698462437586/9d3a4aa2f2b14f51be6e1341b3a05f4e/artifacts
+end_time: 1712214846775
+entry_point_name: ''
+experiment_id: '177651698462437586'
+lifecycle_stage: active
+run_id: 9d3a4aa2f2b14f51be6e1341b3a05f4e
+run_name: Decision Tree Classifier
+run_uuid: 9d3a4aa2f2b14f51be6e1341b3a05f4e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712214846426
+status: 3
+tags: []
+user_id: mtoribio

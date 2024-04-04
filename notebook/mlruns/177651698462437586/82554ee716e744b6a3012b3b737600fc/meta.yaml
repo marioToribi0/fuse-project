@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/mtoribio/Desktop/Clases/Projects%20Mario/Fuse%20project/notebook/mlruns/177651698462437586/82554ee716e744b6a3012b3b737600fc/artifacts
+end_time: 1712214843337
+entry_point_name: ''
+experiment_id: '177651698462437586'
+lifecycle_stage: active
+run_id: 82554ee716e744b6a3012b3b737600fc
+run_name: Light Gradient Boosting Machine
+run_uuid: 82554ee716e744b6a3012b3b737600fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712214842990
+status: 3
+tags: []
+user_id: mtoribio

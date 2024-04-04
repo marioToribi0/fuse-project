@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/mtoribio/Desktop/Clases/Projects%20Mario/Fuse%20project/notebook/mlruns/177651698462437586/bac1c1f4d7d945edb3ed3901aaaecb6a/artifacts
+end_time: 1712214847606
+entry_point_name: ''
+experiment_id: '177651698462437586'
+lifecycle_stage: active
+run_id: bac1c1f4d7d945edb3ed3901aaaecb6a
+run_name: Quadratic Discriminant Analysis
+run_uuid: bac1c1f4d7d945edb3ed3901aaaecb6a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712214847289
+status: 3
+tags: []
+user_id: mtoribio

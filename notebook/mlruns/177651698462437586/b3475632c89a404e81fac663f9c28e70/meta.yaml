@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/mtoribio/Desktop/Clases/Projects%20Mario/Fuse%20project/notebook/mlruns/177651698462437586/b3475632c89a404e81fac663f9c28e70/artifacts
+end_time: 1712214843960
+entry_point_name: ''
+experiment_id: '177651698462437586'
+lifecycle_stage: active
+run_id: b3475632c89a404e81fac663f9c28e70
+run_name: Extreme Gradient Boosting
+run_uuid: b3475632c89a404e81fac663f9c28e70
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712214843452
+status: 3
+tags: []
+user_id: mtoribio

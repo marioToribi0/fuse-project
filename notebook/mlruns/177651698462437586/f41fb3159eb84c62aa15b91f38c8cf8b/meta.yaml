@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/mtoribio/Desktop/Clases/Projects%20Mario/Fuse%20project/notebook/mlruns/177651698462437586/f41fb3159eb84c62aa15b91f38c8cf8b/artifacts
+end_time: 1712214847178
+entry_point_name: ''
+experiment_id: '177651698462437586'
+lifecycle_stage: active
+run_id: f41fb3159eb84c62aa15b91f38c8cf8b
+run_name: Naive Bayes
+run_uuid: f41fb3159eb84c62aa15b91f38c8cf8b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712214846887
+status: 3
+tags: []
+user_id: mtoribio
