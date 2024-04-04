@@ -2751,3 +2751,248 @@ _catboost.CatBoostError: There is no trained model to use get_all_params(). Use 
                    random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
                    warm_start=False)
 2024-04-04 13:52:03,672:INFO:compare_models() successfully completed......................................
+2024-04-04 19:46:50,368:INFO:PyCaret ClassificationExperiment
+2024-04-04 19:46:50,368:INFO:Logging name: Churn telecom
+2024-04-04 19:46:50,368:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2024-04-04 19:46:50,369:INFO:version 3.3.0
+2024-04-04 19:46:50,369:INFO:Initializing setup()
+2024-04-04 19:46:50,369:INFO:self.USI: 0e7c
+2024-04-04 19:46:50,369:INFO:self._variable_keys: {'seed', 'fix_imbalance', 'idx', 'fold_generator', 'USI', 'y', 'exp_id', 'gpu_param', 'y_train', 'target_param', 'exp_name_log', 'data', 'fold_shuffle_param', 'X', 'n_jobs_param', 'X_test', '_available_plots', 'X_train', 'y_test', 'log_plots_param', 'memory', 'pipeline', 'gpu_n_jobs_param', 'is_multiclass', 'fold_groups_param', 'logging_param', 'html_param', '_ml_usecase'}
+2024-04-04 19:46:50,369:INFO:Checking environment
+2024-04-04 19:46:50,370:INFO:python_version: 3.10.2
+2024-04-04 19:46:50,370:INFO:python_build: ('tags/v3.10.2:a58ebcc', 'Jan 17 2022 14:12:15')
+2024-04-04 19:46:50,370:INFO:machine: AMD64
+2024-04-04 19:46:50,370:INFO:platform: Windows-10-10.0.22631-SP0
+2024-04-04 19:46:50,464:INFO:Memory: svmem(total=33567481856, available=5147717632, percent=84.7, used=28419764224, free=5147717632)
+2024-04-04 19:46:50,464:INFO:Physical Core: 8
+2024-04-04 19:46:50,464:INFO:Logical Core: 16
+2024-04-04 19:46:50,464:INFO:Checking libraries
+2024-04-04 19:46:50,464:INFO:System:
+2024-04-04 19:46:50,464:INFO:    python: 3.10.2 (tags/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)]
+2024-04-04 19:46:50,464:INFO:executable: c:\Users\mtoribio\Desktop\Clases\Projects Mario\Fuse project\.venv\Scripts\python.exe
+2024-04-04 19:46:50,465:INFO:   machine: Windows-10-10.0.22631-SP0
+2024-04-04 19:46:50,465:INFO:PyCaret required dependencies:
+2024-04-04 19:46:50,465:INFO:                 pip: 23.3.1
+2024-04-04 19:46:50,465:INFO:          setuptools: 69.2.0
+2024-04-04 19:46:50,465:INFO:             pycaret: 3.3.0
+2024-04-04 19:46:50,465:INFO:             IPython: 8.23.0
+2024-04-04 19:46:50,465:INFO:          ipywidgets: 8.1.2
+2024-04-04 19:46:50,465:INFO:                tqdm: 4.66.2
+2024-04-04 19:46:50,466:INFO:               numpy: 1.26.4
+2024-04-04 19:46:50,466:INFO:              pandas: 2.1.4
+2024-04-04 19:46:50,466:INFO:              jinja2: 3.1.3
+2024-04-04 19:46:50,466:INFO:               scipy: 1.11.4
+2024-04-04 19:46:50,466:INFO:              joblib: 1.3.2
+2024-04-04 19:46:50,466:INFO:             sklearn: 1.4.1.post1
+2024-04-04 19:46:50,466:INFO:                pyod: 1.1.3
+2024-04-04 19:46:50,466:INFO:            imblearn: 0.12.2
+2024-04-04 19:46:50,466:INFO:   category_encoders: 2.6.3
+2024-04-04 19:46:50,466:INFO:            lightgbm: 4.3.0
+2024-04-04 19:46:50,466:INFO:               numba: 0.59.1
+2024-04-04 19:46:50,467:INFO:            requests: 2.31.0
+2024-04-04 19:46:50,467:INFO:          matplotlib: 3.7.5
+2024-04-04 19:46:50,467:INFO:          scikitplot: 0.3.7
+2024-04-04 19:46:50,467:INFO:         yellowbrick: 1.5
+2024-04-04 19:46:50,467:INFO:              plotly: 5.20.0
+2024-04-04 19:46:50,467:INFO:    plotly-resampler: Not installed
+2024-04-04 19:46:50,467:INFO:             kaleido: 0.2.1
+2024-04-04 19:46:50,467:INFO:           schemdraw: 0.15
+2024-04-04 19:46:50,467:INFO:         statsmodels: 0.14.1
+2024-04-04 19:46:50,467:INFO:              sktime: 0.28.0
+2024-04-04 19:46:50,468:INFO:               tbats: 1.1.3
+2024-04-04 19:46:50,468:INFO:            pmdarima: 2.0.4
+2024-04-04 19:46:50,468:INFO:              psutil: 5.9.8
+2024-04-04 19:46:50,468:INFO:          markupsafe: 2.1.5
+2024-04-04 19:46:50,468:INFO:             pickle5: Not installed
+2024-04-04 19:46:50,468:INFO:         cloudpickle: 3.0.0
+2024-04-04 19:46:50,468:INFO:         deprecation: 2.1.0
+2024-04-04 19:46:50,468:INFO:              xxhash: 3.4.1
+2024-04-04 19:46:50,468:INFO:           wurlitzer: Not installed
+2024-04-04 19:46:50,469:INFO:PyCaret optional dependencies:
+2024-04-04 19:46:50,469:INFO:                shap: Not installed
+2024-04-04 19:46:50,469:INFO:           interpret: Not installed
+2024-04-04 19:46:50,469:INFO:                umap: Not installed
+2024-04-04 19:46:50,469:INFO:     ydata_profiling: Not installed
+2024-04-04 19:46:50,469:INFO:  explainerdashboard: Not installed
+2024-04-04 19:46:50,469:INFO:             autoviz: Not installed
+2024-04-04 19:46:50,469:INFO:           fairlearn: Not installed
+2024-04-04 19:46:50,469:INFO:          deepchecks: Not installed
+2024-04-04 19:46:50,469:INFO:             xgboost: 2.0.3
+2024-04-04 19:46:50,470:INFO:            catboost: 1.2.3
+2024-04-04 19:46:50,470:INFO:              kmodes: Not installed
+2024-04-04 19:46:50,470:INFO:             mlxtend: Not installed
+2024-04-04 19:46:50,470:INFO:       statsforecast: Not installed
+2024-04-04 19:46:50,470:INFO:        tune_sklearn: Not installed
+2024-04-04 19:46:50,470:INFO:                 ray: Not installed
+2024-04-04 19:46:50,470:INFO:            hyperopt: Not installed
+2024-04-04 19:46:50,470:INFO:              optuna: Not installed
+2024-04-04 19:46:50,471:INFO:               skopt: Not installed
+2024-04-04 19:46:50,471:INFO:              mlflow: 2.11.3
+2024-04-04 19:46:50,471:INFO:              gradio: Not installed
+2024-04-04 19:46:50,471:INFO:             fastapi: Not installed
+2024-04-04 19:46:50,471:INFO:             uvicorn: Not installed
+2024-04-04 19:46:50,471:INFO:              m2cgen: Not installed
+2024-04-04 19:46:50,472:INFO:           evidently: Not installed
+2024-04-04 19:46:50,472:INFO:               fugue: Not installed
+2024-04-04 19:46:50,472:INFO:           streamlit: 1.32.2
+2024-04-04 19:46:50,472:INFO:             prophet: Not installed
+2024-04-04 19:46:50,472:INFO:None
+2024-04-04 19:46:50,474:INFO:Set up data.
+2024-04-04 19:46:50,509:INFO:Set up folding strategy.
+2024-04-04 19:46:50,510:INFO:Set up train/test split.
+2024-04-04 19:46:50,535:INFO:Set up index.
+2024-04-04 19:46:50,536:INFO:Assigning column types.
+2024-04-04 19:46:50,562:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2024-04-04 19:46:50,625:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-04-04 19:46:50,626:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2024-04-04 19:46:50,677:INFO:Soft dependency imported: xgboost: 2.0.3
+2024-04-04 19:46:50,684:INFO:Soft dependency imported: catboost: 1.2.3
+2024-04-04 19:46:50,773:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-04-04 19:46:50,774:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2024-04-04 19:46:50,822:INFO:Soft dependency imported: xgboost: 2.0.3
+2024-04-04 19:46:50,826:INFO:Soft dependency imported: catboost: 1.2.3
+2024-04-04 19:46:50,826:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2024-04-04 19:46:50,906:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2024-04-04 19:46:50,956:INFO:Soft dependency imported: xgboost: 2.0.3
+2024-04-04 19:46:50,962:INFO:Soft dependency imported: catboost: 1.2.3
+2024-04-04 19:46:51,036:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2024-04-04 19:46:51,089:INFO:Soft dependency imported: xgboost: 2.0.3
+2024-04-04 19:46:51,094:INFO:Soft dependency imported: catboost: 1.2.3
+2024-04-04 19:46:51,095:INFO:Engine successfully changes for model 'rbfsvm' to 'sklearn'.
+2024-04-04 19:46:51,234:INFO:Soft dependency imported: xgboost: 2.0.3
+2024-04-04 19:46:51,238:INFO:Soft dependency imported: catboost: 1.2.3
+2024-04-04 19:46:51,358:INFO:Soft dependency imported: xgboost: 2.0.3
+2024-04-04 19:46:51,365:INFO:Soft dependency imported: catboost: 1.2.3
+2024-04-04 19:46:51,370:INFO:Preparing preprocessing pipeline...
+2024-04-04 19:46:51,376:INFO:Set up simple imputation.
+2024-04-04 19:46:51,381:INFO:Set up column name cleaning.
+2024-04-04 19:46:51,486:INFO:Finished creating preprocessing pipeline.
+2024-04-04 19:46:51,495:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\mtoribio\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['gender_Female', 'gender_Male',
+                                             'Partner_No', 'Partner_Yes',
+                                             'Dependents_No', 'Dependents_Yes',
+                                             'PhoneService_No',
+                                             'PhoneService_Yes',
+                                             'MultipleLines_No',
+                                             'MultipleLines_No phone service',
+                                             'MultipleLines_Yes',
+                                             'In...
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False)
+2024-04-04 19:46:51,495:INFO:Creating final display dataframe.
+2024-04-04 19:46:51,792:INFO:Setup _display_container:                     Description            Value
+0                    Session id              123
+1                        Target            Churn
+2                   Target type           Binary
+3           Original data shape       (7043, 46)
+4        Transformed data shape       (7043, 46)
+5   Transformed train set shape       (4930, 46)
+6    Transformed test set shape       (2113, 46)
+7              Numeric features               45
+8                    Preprocess             True
+9               Imputation type           simple
+10           Numeric imputation             mean
+11       Categorical imputation             mode
+12               Fold Generator  StratifiedKFold
+13                  Fold Number               10
+14                     CPU Jobs               -1
+15                      Use GPU            False
+16               Log Experiment     MlflowLogger
+17              Experiment Name    Churn telecom
+18                          USI             0e7c
+2024-04-04 19:46:51,947:INFO:Soft dependency imported: xgboost: 2.0.3
+2024-04-04 19:46:51,953:INFO:Soft dependency imported: catboost: 1.2.3
+2024-04-04 19:46:52,067:INFO:Soft dependency imported: xgboost: 2.0.3
+2024-04-04 19:46:52,071:INFO:Soft dependency imported: catboost: 1.2.3
+2024-04-04 19:46:52,073:INFO:Logging experiment in loggers
+2024-04-04 19:46:52,314:INFO:SubProcess save_model() called ==================================
+2024-04-04 19:46:52,325:INFO:Initializing save_model()
+2024-04-04 19:46:52,325:INFO:save_model(model=Pipeline(memory=FastMemory(location=C:\Users\mtoribio\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['gender_Female', 'gender_Male',
+                                             'Partner_No', 'Partner_Yes',
+                                             'Dependents_No', 'Dependents_Yes',
+                                             'PhoneService_No',
+                                             'PhoneService_Yes',
+                                             'MultipleLines_No',
+                                             'MultipleLines_No phone service',
+                                             'MultipleLines_Yes',
+                                             'In...
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False), model_name=C:\Users\mtoribio\AppData\Local\Temp\tmpst3sxasa\Transformation Pipeline, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\mtoribio\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['gender_Female', 'gender_Male',
+                                             'Partner_No', 'Partner_Yes',
+                                             'Dependents_No', 'Dependents_Yes',
+                                             'PhoneService_No',
+                                             'PhoneService_Yes',
+                                             'MultipleLines_No',
+                                             'MultipleLines_No phone service',
+                                             'MultipleLines_Yes',
+                                             'In...
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False), verbose=False, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2024-04-04 19:46:52,325:INFO:Adding model into prep_pipe
+2024-04-04 19:46:52,325:WARNING:Only Model saved as it was a pipeline.
+2024-04-04 19:46:52,331:INFO:C:\Users\mtoribio\AppData\Local\Temp\tmpst3sxasa\Transformation Pipeline.pkl saved in current working directory
+2024-04-04 19:46:52,339:INFO:Pipeline(memory=FastMemory(location=C:\Users\mtoribio\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['gender_Female', 'gender_Male',
+                                             'Partner_No', 'Partner_Yes',
+                                             'Dependents_No', 'Dependents_Yes',
+                                             'PhoneService_No',
+                                             'PhoneService_Yes',
+                                             'MultipleLines_No',
+                                             'MultipleLines_No phone service',
+                                             'MultipleLines_Yes',
+                                             'In...
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent'))),
+                ('clean_column_names',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=CleanColumnNames(match='[\\]\\[\\,\\{\\}\\"\\:]+')))],
+         verbose=False)
+2024-04-04 19:46:52,339:INFO:save_model() successfully completed......................................
+2024-04-04 19:46:52,495:INFO:SubProcess save_model() end ==================================
+2024-04-04 19:46:52,611:INFO:setup() successfully completed in 1.71s...............

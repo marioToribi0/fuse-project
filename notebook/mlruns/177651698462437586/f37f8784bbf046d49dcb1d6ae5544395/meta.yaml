@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/mtoribio/Desktop/Clases/Projects%20Mario/Fuse%20project/notebook/mlruns/177651698462437586/f37f8784bbf046d49dcb1d6ae5544395/artifacts
+end_time: 1712274462823
+entry_point_name: ''
+experiment_id: '177651698462437586'
+lifecycle_stage: active
+run_id: f37f8784bbf046d49dcb1d6ae5544395
+run_name: Logistic Regression
+run_uuid: f37f8784bbf046d49dcb1d6ae5544395
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712274461679
+status: 3
+tags: []
+user_id: mtoribio

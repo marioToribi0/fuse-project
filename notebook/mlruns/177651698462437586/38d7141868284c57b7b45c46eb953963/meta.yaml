@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/mtoribio/Desktop/Clases/Projects%20Mario/Fuse%20project/notebook/mlruns/177651698462437586/38d7141868284c57b7b45c46eb953963/artifacts
+end_time: 1712274464580
+entry_point_name: ''
+experiment_id: '177651698462437586'
+lifecycle_stage: active
+run_id: 38d7141868284c57b7b45c46eb953963
+run_name: Ada Boost Classifier
+run_uuid: 38d7141868284c57b7b45c46eb953963
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712274463952
+status: 3
+tags: []
+user_id: mtoribio

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/mtoribio/Desktop/Clases/Projects%20Mario/Fuse%20project/notebook/mlruns/177651698462437586/aef770f428bd435ea6ba3c08853811d0/artifacts
+end_time: 1712274471430
+entry_point_name: ''
+experiment_id: '177651698462437586'
+lifecycle_stage: active
+run_id: aef770f428bd435ea6ba3c08853811d0
+run_name: K Neighbors Classifier
+run_uuid: aef770f428bd435ea6ba3c08853811d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712274470830
+status: 3
+tags: []
+user_id: mtoribio

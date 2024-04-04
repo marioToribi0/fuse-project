@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/mtoribio/Desktop/Clases/Projects%20Mario/Fuse%20project/notebook/mlruns/177651698462437586/7d0b21594d7a44779c728e1882f2cbe1/artifacts
+end_time: 1712274469726
+entry_point_name: ''
+experiment_id: '177651698462437586'
+lifecycle_stage: active
+run_id: 7d0b21594d7a44779c728e1882f2cbe1
+run_name: Random Forest Classifier
+run_uuid: 7d0b21594d7a44779c728e1882f2cbe1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712274468937
+status: 3
+tags: []
+user_id: mtoribio

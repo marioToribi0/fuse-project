@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/mtoribio/Desktop/Clases/Projects%20Mario/Fuse%20project/notebook/mlruns/177651698462437586/b41a7b10d3a345f58e583c618743b99a/artifacts
+end_time: 1712274465361
+entry_point_name: ''
+experiment_id: '177651698462437586'
+lifecycle_stage: active
+run_id: b41a7b10d3a345f58e583c618743b99a
+run_name: Ridge Classifier
+run_uuid: b41a7b10d3a345f58e583c618743b99a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712274464769
+status: 3
+tags: []
+user_id: mtoribio

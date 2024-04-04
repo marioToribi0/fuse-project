@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/mtoribio/Desktop/Clases/Projects%20Mario/Fuse%20project/notebook/mlruns/177651698462437586/e889a91a4a7a4a17a2903fc79ee9a2b0/artifacts
+end_time: 1712274472965
+entry_point_name: ''
+experiment_id: '177651698462437586'
+lifecycle_stage: active
+run_id: e889a91a4a7a4a17a2903fc79ee9a2b0
+run_name: Dummy Classifier
+run_uuid: e889a91a4a7a4a17a2903fc79ee9a2b0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712274472461
+status: 3
+tags: []
+user_id: mtoribio

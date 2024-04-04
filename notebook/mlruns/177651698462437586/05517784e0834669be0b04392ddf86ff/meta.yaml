@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/mtoribio/Desktop/Clases/Projects%20Mario/Fuse%20project/notebook/mlruns/177651698462437586/05517784e0834669be0b04392ddf86ff/artifacts
+end_time: 1712274472268
+entry_point_name: ''
+experiment_id: '177651698462437586'
+lifecycle_stage: active
+run_id: 05517784e0834669be0b04392ddf86ff
+run_name: Extra Trees Classifier
+run_uuid: 05517784e0834669be0b04392ddf86ff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712274471606
+status: 3
+tags: []
+user_id: mtoribio

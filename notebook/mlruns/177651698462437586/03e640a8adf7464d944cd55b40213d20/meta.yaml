@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/mtoribio/Desktop/Clases/Projects%20Mario/Fuse%20project/notebook/mlruns/177651698462437586/03e640a8adf7464d944cd55b40213d20/artifacts
+end_time: 1712274466169
+entry_point_name: ''
+experiment_id: '177651698462437586'
+lifecycle_stage: active
+run_id: 03e640a8adf7464d944cd55b40213d20
+run_name: Linear Discriminant Analysis
+run_uuid: 03e640a8adf7464d944cd55b40213d20
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712274465545
+status: 3
+tags: []
+user_id: mtoribio

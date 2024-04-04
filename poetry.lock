@@ -1513,6 +1513,26 @@ files = [
 ]
 
 [[package]]
+name = "kmodes"
+version = "0.12.2"
+description = "Python implementations of the k-modes and k-prototypes clustering algorithms for clustering categorical data."
+optional = false
+python-versions = "*"
+files = [
+    {file = "kmodes-0.12.2-py2.py3-none-any.whl", hash = "sha256:b764f7166dd5fe63826135ed74df796693dc7c25fc2cb8a106e14f3bfb371004"},
+    {file = "kmodes-0.12.2.tar.gz", hash = "sha256:d840ac9f4616a668ebacba24a12ec1def87da24a9fd0a0dc2f7499a9b9a6f45b"},
+]
+
+[package.dependencies]
+joblib = ">=0.11"
+numpy = ">=1.10.4"
+scikit-learn = ">=0.22.0"
+scipy = ">=0.13.3"
+
+[package.extras]
+dev = ["pandas", "pytest", "pytest-cov"]
+
+[[package]]
 name = "lightgbm"
 version = "4.3.0"
 description = "LightGBM Python Package"
@@ -4020,4 +4040,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "3.10.2"
-content-hash = "d3417e1e6d7bead32cab47cb53b86b6aa880f8fa823ccbb37a9d9c4a25890ebd"
+content-hash = "7c69f8547103d73fa2ae139828f3a6344a330ddee689910004f69494b8c282c9"

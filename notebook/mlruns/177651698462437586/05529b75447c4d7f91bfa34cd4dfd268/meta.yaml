@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/mtoribio/Desktop/Clases/Projects%20Mario/Fuse%20project/notebook/mlruns/177651698462437586/05529b75447c4d7f91bfa34cd4dfd268/artifacts
+end_time: 1712274470613
+entry_point_name: ''
+experiment_id: '177651698462437586'
+lifecycle_stage: active
+run_id: 05529b75447c4d7f91bfa34cd4dfd268
+run_name: SVM - Linear Kernel
+run_uuid: 05529b75447c4d7f91bfa34cd4dfd268
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712274469935
+status: 3
+tags: []
+user_id: mtoribio
